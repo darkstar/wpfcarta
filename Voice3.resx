@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="VOSCE16_00432" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00432.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00433" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00433.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00434" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00434.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00435" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00435.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00436" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00436.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00437" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00437.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00438" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00438.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00439" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00439.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00440" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00440.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00441.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00442" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00442.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00443" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00443.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00444" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00444.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00445" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00445.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00446" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00446.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00447" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00447.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00448" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00448.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00449" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00449.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00450" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00450.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00451" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00451.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00452" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00452.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00453.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00454" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00454.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00455" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00455.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00456" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00456.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00457" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00457.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00458" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00458.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00459" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00459.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00460" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00460.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00461" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00461.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00462" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00462.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00463" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00463.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00464" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00464.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00465" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00465.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00466" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00466.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00467" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00467.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00468" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00468.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00469" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00469.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00470" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00470.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00471" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00471.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00472" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00472.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00473" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00473.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00474" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00474.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00475" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00475.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00476" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00476.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00477" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00477.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00478" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00478.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00479" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00479.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00480" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00480.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00481.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00482" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00482.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00483" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00483.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00484" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00484.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00485" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00485.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00486" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00486.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00487" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00487.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00488" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00488.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00489" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00489.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00490" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00490.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00491" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00491.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00492" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00492.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00493" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00493.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00494" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00494.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00495" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00495.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00496" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00496.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00497" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00497.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00498" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00498.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00499" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00499.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00500.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00501.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00502.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00503" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00503.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00504" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00504.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00505" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00505.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00506" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00506.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00507" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00507.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00508" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00508.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00509" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00509.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00510" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00510.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00511" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00511.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00512.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00513" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00513.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00514" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00514.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00515" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00515.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00516" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00516.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00517" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00517.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00518" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00518.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00519" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00519.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00520" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00520.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00521.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00522" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00522.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00523" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00523.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00524" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00524.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00525" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00525.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00526" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00526.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00527" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00527.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00528" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00528.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00529" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00529.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00530" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00530.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00531" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00531.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00692" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00692.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00693" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00693.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00694" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00694.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00695" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00695.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00696" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00696.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00697" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00697.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00698" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00698.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00699" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00699.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00700.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00701" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00701.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00702" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00702.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00703" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00703.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00704" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00704.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00705" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00705.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00706" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00706.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00707" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00707.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00708" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00708.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00709" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00709.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00710" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00710.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00711" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00711.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00712" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00712.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00713" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00713.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00714" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00714.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00715" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00715.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00716" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00716.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00717" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00717.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00718" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00718.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00719" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00719.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00720.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00721" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00721.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00722" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00722.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00723" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00723.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00724" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00724.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00725" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00725.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00726" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00726.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00727" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00727.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00728" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00728.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00729" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00729.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00730" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00730.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00731" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00731.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00732" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00732.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00733" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00733.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00734" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00734.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00735" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00735.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00736" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00736.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00737" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00737.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00738" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00738.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00739" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00739.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00740" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00740.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00741.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00742" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00742.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00743" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00743.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00744" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00744.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00745" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00745.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00746" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00746.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00747" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00747.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00748" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00748.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00749" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00749.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00750" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00750.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00751" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00751.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00752" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00752.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00753" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00753.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00754" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00754.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00755" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00755.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00756" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00756.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00757" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00757.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00758" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00758.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00759" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00759.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00760" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00760.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00761.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00762" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00762.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00763" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00763.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00764" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00764.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00765" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00765.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00766" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00766.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00767" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00767.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00768" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00768.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00769" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00769.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00770" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00770.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOSCE16_00771" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>audio\Voice3\VOSCE16_00771.MP3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

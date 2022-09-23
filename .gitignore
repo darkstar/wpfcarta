@@ -1,0 +1,6 @@
+.vs/
+*.suo
+*.swp
+*~
+obj/
+bin/
